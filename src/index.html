@@ -1,32 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Learning Website</title>
+    <title>E-Learning Platform - Unlock Your Potential</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Welcome to Our E-Learning Platform</h1>
-        <nav>
-            <ul>
-                <li><a href="pages/courses.html">Courses</a></li>
-                <li><a href="pages/about.html">About Us</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <a href="index.html" class="logo">LearnSphere</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/courses.html">Courses</a></li>
+                    <li><a href="pages/about.html">About Us</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="#" class="btn btn-primary">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Unlock Your Potential with Our Expert-Led Courses</h1>
+            <p>Discover a world of knowledge and skills, tailored for your success. Start your learning journey today!
+            </p>
+            <a href="pages/courses.html" class="btn btn-secondary">Explore Courses</a>
+        </div>
+    </section>
+
     <main>
-        <section>
-            <h2>Featured Courses</h2>
-            <p>Explore our wide range of courses designed to help you learn and grow.</p>
+        <section class="featured-courses">
+            <div class="container">
+                <h2>Featured Courses</h2>
+                <div class="course-grid">
+                    <!-- Course Card Example 1 -->
+                    <div class="course-card">
+                        <img src="assets/images/course-placeholder-1.jpg" alt="Course 1 Thumbnail">
+                        <h3>Introduction to Web Development</h3>
+                        <p>Learn the fundamentals of HTML, CSS, and JavaScript.</p>
+                        <a href="pages/courses.html#web-dev" class="btn btn-tertiary">Learn More</a>
+                    </div>
+                    <!-- Course Card Example 2 -->
+                    <div class="course-card">
+                        <img src="assets/images/course-placeholder-2.jpg" alt="Course 2 Thumbnail">
+                        <h3>Advanced Data Science</h3>
+                        <p>Dive deep into machine learning, data analysis, and visualization.</p>
+                        <a href="pages/courses.html#data-science" class="btn btn-tertiary">Learn More</a>
+                    </div>
+                    <!-- Course Card Example 3 -->
+                    <div class="course-card">
+                        <img src="assets/images/course-placeholder-3.jpg" alt="Course 3 Thumbnail">
+                        <h3>Digital Marketing Mastery</h3>
+                        <p>Master SEO, content marketing, and social media strategies.</p>
+                        <a href="pages/courses.html#digital-marketing" class="btn btn-tertiary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <div class="container">
+                <h2>Ready to Start Learning?</h2>
+                <p>Join thousands of learners and achieve your personal and professional goals.</p>
+                <a href="#" class="btn btn-primary">Get Started Now</a>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2023 E-Learning Website. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 LearnSphere. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            </div>
+        </div>
     </footer>
     <script src="js/main.js"></script>
 </body>
+
 </html>
